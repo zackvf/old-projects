@@ -8,15 +8,15 @@ What I took away from this project was how to match user input with stored data 
 
 ## Home screen:
 
-(![alt text](https://github.com/zackvf/old-projects/javascript-30-day-challenge/ajax-cities-search/blob/[main]/main.png?raw=true))
+[alt text](https://github.com/[zackvf]/[old-projects]/javascript-30-day-challenge/ajax-cities-search/blob/[main]/main.png?raw=true)
 
 ## Searching with uppercase:
 
-(![alt text](https://github.com/zackvf/old-projects/javascript-30-day-challenge/ajax-cities-search/blob/[main]/uppercase.png?raw=true))
+[alt text](https://github.com/[zackvf]/[old-projects]/javascript-30-day-challenge/ajax-cities-search/blob/[main]/uppercase.png?raw=true)
 
 ## Searching with lowercase:
 
-(![alt text](https://github.com/zackvf/old-projects/javascript-30-day-challenge/ajax-cities-search/blob/[main]/lowercase.png?raw=true))
+[alt text](https://github.com/[zackvf]/[old-projects]/javascript-30-day-challenge/ajax-cities-search/blob/[main]/lowercase.png?raw=true)
 
 ### Credits
 
