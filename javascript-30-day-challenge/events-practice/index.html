@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events Practice</title>
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+
+<style>
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after { box-sizing: inherit; }
+
+  div {
+    width:100%;
+    padding:100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background:mistyrose;
+  }
+
+  .three {
+    background:coral;
+  }
+</style>
+
+<button></button>
+
+<script>
+  // Bubbling - the browser will register what you clicked on and ripple up until the top most element of the document is reached
+  // Capturing - reverse order of bubbling and preceeds bubbling
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button');
+
+  function logText(e) {
+    console.log(this.classList.value);
+    e.stopPropagation(); // Stops bubbling/capturing, outputting "one"/"two"/"three" for bubbling or just "one" for capturing
+  }
+
+  divs.forEach(div => div.addEventListener('click', logText, {
+    capture: false, // Runs the logText function downwards instead of upwards (Note: capture is defaulted to false)
+    once: true // Only runs function once and then stops until the page is reloaded
+  }));
+
+  button.addEventListener('click', () => {
+    console.log("Click.");
+  }, { once: true }); // Only being allowed to click one time before the page is reloaded is ideal for shopping online to prevent accidental, constant repurchasing
+
+</script>
+
+</body>
+</html>

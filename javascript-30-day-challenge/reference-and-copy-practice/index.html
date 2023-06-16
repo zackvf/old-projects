@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Reference & Copy</title>
+</head>
+<body>
+  <h1>check the console</h1>
+
+  <script>
+    // Referencing numbers/strings
+    let age = 20;
+    let age2 = age;
+    console.log(age, age2);
+    age = 21;
+    console.log(age, age2);
+
+    let name = 'van';
+    let name2 = name;
+    console.log(name, name2);
+    name = 'von';
+    console.log(name, name2);
+
+    // Referencing arrays
+    const players = ['John', 'Sarah', 'Ryan', 'Poppy'];
+    const team = players;
+    console.log(players, team);
+
+    // Incorrect copy method
+    // team[3] = 'Lucy';
+    /* The reference created by the team variable updates the original array */
+
+    // Copy method 1 - call slice against the original array to make a simple copy, instead of slicing specific values in the array itself
+    const team2 = players.slice();
+    console.log(team2);
+
+    // Copy method 2 - create a new, blank array and concatenate original array into it
+    const team3 = [].concat(players);
+    console.log(team3);
+
+    // Copy method 3 - ES6 Spread and Array.from options
+    const team4 = [...players];
+    console.log(team4);
+
+    const team5 = Array.from(players);
+    console.log(team5);
+
+    // Objects can also be copied
+    const person = {
+      name: 'john wick',
+      age: 45
+    };
+    console.log(person);
+
+    // Incorrect copy method
+    // const master = person;
+
+    // Copy method 1 - call Object.assign method and pass in a blank object for the first argument, then fold in the properties from a separate object in the second argument, then fold in any new values with the third argument 
+    const master = Object.assign({}, person, { rank: 1, ID: 66, age: 25 });
+    console.log(master);
+
+    // New method likely coming soon - Spreading properties of objects into new objects, similar to arrays
+    // const master2 = {...person};
+
+    // Note: the Object.assign method only goes one level deep into an object, as well as for arrays, 'lodash' has a 'cloneDeep' method to go further but it's riskier to utilize
+    const van = {
+      name: 'van',
+      age: 25,
+      social: {
+        twitter: 'vanofcaz',
+        fb: 0
+      }
+    };
+    console.log(van);
+
+    // This will affect the reference to the original object
+    const dev = Object.assign({}, van);
+    dev.social.twitter = '@blurb';
+    console.log(dev);
+
+    // Parsing a JSON string works well enough as a cloneDeep alternative, such that the given object is turned into a string and immediately changed back into an object, shaking previous references to make a functional pseudo-copy
+    const dev2 = JSON.parse(JSON.stringify(van));
+    dev2.social.twitter = '@helloitsme';
+    dev2.social.fb = 1;
+    console.log(dev2);
+
+  </script>
+
+</body>
+</html>
