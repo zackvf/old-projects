@@ -6,7 +6,7 @@ This project gave me valuable practice with mathmematic equations in JavaScript 
 
 ## Cursor set to the right:
 
-![Mouse-right](https://i.imgur.com/sxPJ1qR.png?1 'Mouse-right')
+![image](./Main.PNG)
 
 ### Credits
 

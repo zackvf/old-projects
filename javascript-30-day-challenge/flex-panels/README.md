@@ -6,15 +6,15 @@ This project helped me to better understand the basics of transitioning/translat
 
 ## Main page:
 
-![Main](https://i.imgur.com/pPn3zTY.png?1 'Main')
+![image](./Main.PNG)
 
 ## Middle panel opened:
 
-![Middle](https://i.imgur.com/1zjqmat.png?1 'Middle')
+![image](./Middle.PNG)
 
 ## Two panels opened:
 
-![Two](https://i.imgur.com/jGEbFO1.png?1 'Two')
+![image](./Two.PNG)
 
 ### Credits
 

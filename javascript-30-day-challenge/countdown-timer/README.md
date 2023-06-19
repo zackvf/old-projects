@@ -6,11 +6,11 @@ This project was particularly interesting due to discovering how to handle multi
 
 ## Preset timer (15 minutes):
 
-![15](https://i.imgur.com/dpB1WbL.png?1 '15 minutes')
+![image](./15.PNG)
 
 ## Custom timer (37 minutes):
 
-![37](https://i.imgur.com/ZduPDMv.png?1 '37 minutes')
+![image](./37.PNG)
 
 ### Credits
 

@@ -6,7 +6,7 @@ This project taught me a good deal about how video players in general handle fun
 
 ## Main page displaying video controls:
 
-![Main](https://i.imgur.com/pBfpIG0.png?1 'Main')
+![image](./Main.PNG)
 
 ### Credits
 

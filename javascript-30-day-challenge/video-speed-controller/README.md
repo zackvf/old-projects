@@ -4,7 +4,7 @@ This project expands on the idea of the ability to control the playback rate of 
 
 ## Main page:
 
-![Main](https://i.imgur.com/I9aAMoI.png?1 'Main')
+![image](./Main.PNG)
 
 ### Credits
 

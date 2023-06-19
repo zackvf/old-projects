@@ -6,11 +6,11 @@ This project was a fascinating endeavor to undertake as I hadn't previously cons
 
 ## Main page without video feed:
 
-![Main](https://i.imgur.com/ln3Gxd9.png?1 'Main')
+![image](./Main.PNG)
 
 ## Saved snapshots:
 
-![Snaps](https://i.imgur.com/jbgkoD8.png?1 'Snaps')
+![image](./Snaps.PNG)
 
 ### Credits
 

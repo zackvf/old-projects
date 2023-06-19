@@ -6,7 +6,7 @@ This project was particularly fun to create as speech synthesis was a new techno
 
 ## Main page before customizations:
 
-![Main](https://i.imgur.com/LDV6IE9.png?1 'Main')
+![image](./Main.PNG)
 
 ### Credits
 

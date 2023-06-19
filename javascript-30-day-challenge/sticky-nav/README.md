@@ -6,11 +6,11 @@ What I took away from this project was how simple it is to create a visually app
 
 ## Before scrolling:
 
-![Before](https://i.imgur.com/sv5HYPI.png?1 'Before')
+![image](./Before.PNG)
 
 ## After scrolling:
 
-![After](https://i.imgur.com/BMqK4K2.png?1 'After')
+![image](./After.PNG)
 
 ### Credits
 

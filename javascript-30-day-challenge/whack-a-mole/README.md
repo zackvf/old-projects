@@ -6,11 +6,11 @@ This project at first seemed complicated but was made clear as I progressed. Eve
 
 ## Main page before starting game:
 
-![Pre-game](https://i.imgur.com/1eGXnEo.png?1 'Pre-game')
+![image](./Main.PNG)
 
 ## During game:
 
-![Game](https://i.imgur.com/QnLIXtw.png?1 'Game')
+![image](./During.PNG)
 
 ### Credits
 
